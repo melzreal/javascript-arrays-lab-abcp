@@ -1,5 +1,5 @@
 
-
+kittens = [];
 function destructivelyAppendKitten(n){
   
 }

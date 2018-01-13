@@ -9,3 +9,9 @@ function destructivelyAppendKitten(n){
 }
 
 
+function destructivelyPrependKitten(n){
+   kittens.shift(n);
+  
+  return kittens;
+  
+}

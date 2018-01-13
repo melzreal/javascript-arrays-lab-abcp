@@ -46,3 +46,11 @@ return kittenArr;
   
 }
 
+function prependKitten(n){
+
+var kittenArr =  [n, ...kittens];
+  
+return kittenArr;
+  
+}
+

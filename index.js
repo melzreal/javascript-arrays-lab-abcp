@@ -48,7 +48,8 @@ return kittenArr;
 
 function removeLastKitten(){
 
-var kittenArr =  kittens.pop();
+var kittenArr =  kittens;
+kittenArr.pop();
   
 return kittenArr;
   

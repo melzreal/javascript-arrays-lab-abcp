@@ -30,10 +30,11 @@ function destructivelyRemoveFirstKitten(){
   
 }
 
-function destructivelyRemoveFirstKitten(){
-   kittens.shift();
+function appendKitten(n){
+
+var kittenArr =  [...kittens, n];
   
-  return kittens;
+return kittenArr;
   
 }
 

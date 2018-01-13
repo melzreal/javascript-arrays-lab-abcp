@@ -16,7 +16,7 @@ function destructivelyPrependKitten(n){
   
 }
 
-function destructivelyPrependKitten(){
+function destructivelyRemoveLastKitten(){
    kittens.shift();
   
   return kittens;

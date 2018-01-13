@@ -55,10 +55,10 @@ return kittenArr;
   
 }
 
-function removeLastKitten(){
+function removeFirstKitten(){
 
 var kittenArr =  [...kittens];
-kittenArr.pop();
+kittenArr.shift();
   
 return kittenArr;
   

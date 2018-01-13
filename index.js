@@ -22,3 +22,4 @@ function destructivelyRemoveLastKitten(){
   return kittens;
   
 }
+

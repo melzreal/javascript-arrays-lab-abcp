@@ -46,7 +46,7 @@ return kittenArr;
   
 }
 
-function prependKitten(n){
+function removeLastKitten(n){
 
 var kittenArr =  [n, ...kittens];
   

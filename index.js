@@ -15,3 +15,10 @@ function destructivelyPrependKitten(n){
   return kittens;
   
 }
+
+function destructivelyPrependKitten(){
+   kittens.shift();
+  
+  return kittens;
+  
+}
